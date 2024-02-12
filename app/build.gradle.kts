@@ -58,7 +58,7 @@ dependencies {
     // to LocalStorage.
     implementation("androidx.appsearch:appsearch-platform-storage:$appsearch_version")
 
-
+    implementation ("com.google.guava:guava:30.1.1-android")
     // sdp
     implementation ("com.intuit.sdp:sdp-android:1.1.0")
     implementation ("com.intuit.ssp:ssp-android:1.1.0")

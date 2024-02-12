@@ -1,10 +1,11 @@
 package com.example.appsearchtestproject
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Context
 import android.os.Bundle
-import androidx.appsearch.app.SetSchemaRequest
+import androidx.appcompat.app.AppCompatActivity
 
 class InsertDataForSearch : AppCompatActivity() {
+    val context: Context = applicationContext
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_insert_data_for_search)
