@@ -93,6 +93,7 @@ class MainActivity : AppCompatActivity() {
             },
             mainExecutor
         )
+
     }
 
     private fun search() {
@@ -103,7 +104,7 @@ class MainActivity : AppCompatActivity() {
         val searchFuture = Futures.transform(
             appSearchObserver.sessionFuture,
             { session ->
-                session?.search("hello 50", searchSpec)
+                session?.search("5", searchSpec)
             }, mainExecutor
         )
         Futures.addCallback(
